@@ -1,0 +1,23 @@
+.vertical-menu-container #side-div {
+  padding-left: 0.5rem;
+}
+.vertical-menu-container .favourit-div {
+  display: flex;
+  width: 185px !important;
+  align-items: center;
+}
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fav-text {
+  font-size: 20px;
+  font-weight: 800 !important;
+  padding-left: 0.5rem;
+  background-color: var(--bg-card);
+  font-family: "Nunito Sans", sans-serif;
+  padding-left: 1.2rem !important;
+  padding-top: 1rem !important;
+}

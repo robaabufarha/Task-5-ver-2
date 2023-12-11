@@ -1,0 +1,51 @@
+.navbar h1 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 0rem;
+  padding-left: 0rem;
+  color: var(--bs-body-color);
+  font-family: "Nunito Sans", sans-serif;
+}
+.navbar p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--bg-nav);
+  height: 4.4rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-right);
+}
+.container-fluid .dark-mode-button {
+  width: 6.5rem;
+  height: 3rem;
+  background-color: var(--bg-dark-mode-button);
+  border: none;
+  box-shadow: #ffffff;
+  font-weight: 600;
+  font-size: medium;
+  align-items: end;
+  place-items: center;
+  display: flex;
+  color: var(--bs-body-color);
+}
+.container-fluid {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0rem;
+}
+@media only screen and (max-width: 767px) {
+  .navbar {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .navbar h1 {
+    font-size: 1rem !important;
+  }
+  .container-fluid .dark-mode-button {
+    width: 6rem;
+    height: 3rem;
+    font-size: 13px;
+  }
+}
